@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fanzzy Fantasy Sports</title>
+  <style>
+    /* Global Styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #e8b3b3;
+    }
+    header {
+      background-color: #e4b300;
+      color: rgb(183, 25, 25);
+      padding: 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #333;
+    }
+    nav a {
+      color: rgb(230, 11, 11);
+      padding: 1rem;
+      text-decoration: none;
+      text-align: center;
+      flex: 1;
+      c:\Users\DELL\Pictures\dream 11 player picture.png;
+    }
+    nav a:hover {
+      background-color: #575757;
+    }
+    /* Hero Section */
+    .hero {
+      background: url('https://example.com/banner.jpg') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 5rem 2rem;
+    }
+    .hero h2 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+    .hero button {
+      background-color: #e40046;
+      color: white;
+      padding: 1rem 2rem;
+      border: none;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .hero button:hover {
+      background-color: #c1003b;
+    }
+    /* Match Listings */
+    .matches {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 2rem;
+    }
+    .match-card {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 30%;
+      margin: 1rem;
+      padding: 1rem;
+      text-align: center;
+    }
+    .match-card h3 {
+      color: #e40046;
+      font-size: 1.5rem;
+    }
+    .match-card p {
+      font-size: 1rem;
+      color: #555;
+    }
+    .match-card button {
+      background-color: #e40046;
+      color: white;
+      padding: 0.5rem 1rem;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-top: 1rem;
+    }
+    .match-card button:hover {
+      background-color: #c1003b;
+    }
+    /* Footer */
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .match-card {
+        width: 45%;
+      }
+    }
+    @media (max-width: 480px) {
+      .match-card {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Fanzzy</h1>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">How to Play</a>
+    <a href="#">Login</a>
+    <a href="#">Sign Up</a>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Create Your Fantasy Team</h2>
+    <p>Join contests, compete with friends, and win real cash!</p>
+    <button onclick="alert('Sign Up Coming Soon!')">Get Started</button>
+  </section>
+
+  <!-- Match Listings -->
+  <section class="matches">
+    <div class="match-card">
+      <h3>Cricket: India vs Australia</h3>
+      <p>Date: 30th April 2025</p>
+      <p>Time: 7:00 PM IST</p>
+      <button onclick="alert('Join Contest')">Join Contest</button>
+    </div>
+    <div class="match-card">
+      <h3>Football: Manchester United vs Chelsea</h3>
+      <p>Date: 1st May 2025</p>
+      <p>Time: 10:00 PM IST</p>
+      <button onclick="alert('Join Contest')">Join Contest</button>
+    </div>
+    <div class="match-card">
+      <h3>Basketball: Lakers vs Warriors</h3>
+      <p>Date: 2nd May 2025</p>
+      <p>Time: 6:30 AM IST</p>
+      <button onclick="alert('Join Contest')">Join Contest</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Dream11 Clone | All Rights Reserved
+  </footer>
+
+</body>
+</html>
